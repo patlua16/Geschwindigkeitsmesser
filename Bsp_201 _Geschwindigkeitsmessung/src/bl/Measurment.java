@@ -20,8 +20,6 @@ public class Measurment implements Serializable{
     private final String kennzeichen;
     private final int vgemessen, verlaubt, übertreten;
     
-    
-
     public Measurment(LocalDate datum, LocalTime uhrzeit, String kennzeichen, int vgemessen, int verlaubt, int übertreten) {
         this.datum = datum;
         this.uhrzeit = uhrzeit;
